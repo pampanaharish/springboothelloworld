@@ -22,7 +22,7 @@ public class HelloWorldControllerTest {
 
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("<html><body style='background-color:grey;text-align: center;'> <h1 style='background-color:powderblue;'> Hello, World!</h1> </br>Java 17 is the latest long-term support (LTS) release</body></html>"));
+                .andExpect(content().string("Hello, World!</br>Java 17 is the latest long-term support (LTS) release"));
 
     }
 }

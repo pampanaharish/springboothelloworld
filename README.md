@@ -14,7 +14,7 @@
 
 - **From jar file**
   Create a jar file using '**mvn clean install**' command and then execute
-  <br/>```java -jar target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar```
+  <br/>```java -jar target/spring-boot-3-hello-world-1.0.2-SNAPSHOT.jar```
 
 
 - **Directly from IDE**
